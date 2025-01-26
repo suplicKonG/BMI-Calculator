@@ -1,6 +1,7 @@
 function bmiCalculator (weight, height) {
 
     var bmi = weight / (height * height);
+    var roundedBmi = bmi.toFixed(2);
 
 
     if (bmi <= 18.5){
